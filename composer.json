@@ -1,0 +1,22 @@
+{
+    "name": "midnight/zf2-ses-transport",
+    "description": "Amazon SES transport for Zend Framework 2's Mail component",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudolph Gottesheim",
+            "email": "r.gottesheim@loot.at"
+        }
+    ],
+    "require": {
+        "php": "~5.5",
+        "zendframework/zend-mail": "~2.0",
+        "aws/aws-sdk-php": "~2.0"
+    },
+    "autoloading": {
+        "psr-4": {
+            "Midnight\\Mail\\Transport\\": "src/"
+        }
+    }
+}
